@@ -8,7 +8,9 @@
   list-style: none;
 }
 
-
+.bg-barberia-primary {
+  background: var(--primary);
+}
 
 .aside {
   width: 100%;
