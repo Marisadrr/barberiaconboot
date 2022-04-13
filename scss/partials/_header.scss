@@ -1,0 +1,58 @@
+header{
+.navbar {
+    padding: 30%;
+    color: rgb(221, 191, 126) !important;
+    background-color: #000 !important;
+}
+
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(221, 191, 126);
+    background-image: url("images/barberbanner1-1-604x270.png")!important ;
+    list-style: none;
+    }
+
+.header_nav-lista{
+    display: flex;
+    list-style: none;
+}
+
+.header_li{
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.header_tamanio{
+    width: 10%;
+    height: auto;
+}
+
+.aside{
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header_li:hover {
+    background-color: blueviolet;
+}
+}

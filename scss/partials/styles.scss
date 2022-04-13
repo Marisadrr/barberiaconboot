@@ -1,0 +1,271 @@
+@import"./partials/_mediaQuerys.scss";
+@import"./partials/_header.scss";
+@import"./partials/_variables.scss";
+@import"./partials/_funciones.scss";
+@import"./partials/_operadores.scss";
+@import"./partials/_mapas.scss";
+
+
+*{
+    margin: 0%;  
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+
+.navbar {
+    padding: 30%;
+    color: rgb(221, 191, 126) !important;
+    background-color: #000 !important;
+}
+
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(221, 191, 126);
+    background-image: url("images/barberbanner1-1-604x270.png")!important ;
+    list-style: none;
+    }
+
+.header_nav-lista{
+    display: flex;
+    list-style: none;
+}
+
+.header_li{
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.header_tamanio{
+    width: 10%;
+    height: auto;
+}
+
+.aside{
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header_li:hover {
+    background-color: blueviolet;
+}
+
+/*----------------main----------------------*/
+.element.style{
+    width: 58px;
+}
+.images{
+    width: 50%;
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.video{
+    border-image: auto;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    grid-auto-rows: auto;
+}
+
+.card{
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    flex-direction: column; /*primero foto y luego texto columna vertica y roud horizontall*/
+    border: solid 1px;
+    margin: 15px 0 ;
+}
+
+.card_img{
+    width: 200%;
+    height: 50%;
+}
+
+.card_imagen{
+    width: 50%;
+    height: 200%;
+    padding: 10px; 
+
+.card_texto{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    }
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    flex-wrap: wrap; /*ajusta el contenido*/
+    padding: 15px;
+    color: rgb(221, 191, 126)
+}
+
+/*---------------footer----------------------*/
+
+.footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    border: solid 1px;
+    color: rgb(221, 191, 126);
+    background-image: url("images/barberbanner1-1-604x270.png") ;
+    list-style: none;
+}
+
+.img_redes{
+    width: 50px;
+    height: 50px;
+}
+
+.fondo{
+    background-color: url("./images/barberbanner1-1-604x270.png");
+    height: 150px;
+    color: rgb(221, 191, 126);
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+}
+
+main {
+    color: rgb(221, 191, 126);
+    font-weight: bold;
+    font-style: helvetica;
+    width: 100%;
+    height: 100%;
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: black;
+}
+
+ul {
+    color:rgb(221, 191, 126);
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 18px;
+}
+
+
+p {
+    color: rgb(221, 191, 126);
+    font-weight: bold;
+    font-style: helvetica;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 40px;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 30px;
+}
+
+.a:hover{
+    a:visited{ color:rgb(221, 191, 126);
+    }}
+
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas: 3;
+        height: 100vh;
+    width: 100vw;
+}
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: rgb(221, 191, 126);
+    background-color: #000;
+}
